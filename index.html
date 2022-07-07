@@ -357,7 +357,7 @@
     </div>
     
 </footer>
-<!-- вернуть бекдропу класс is-hidden -->
+
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
         <button type="button" class="modal-close-button" data-modal-close>
@@ -399,11 +399,14 @@
             </label>
             <label class="contact-form-field">
             <span class="contact-form-field-key">Комментарий</span>
+           
+            <textarea class="contact-form-text" placeholder="Введите текст" name="user_message"></textarea>
+            </label>
+
             <span class="contact-form-field-container">
-            <textarea class="contact-form-text" type="text" placeholder="Введите текст" name="user_message"></textarea>
             <input class="contact-form-chekbox hidden" type="checkbox" id="checkbox-policy" required name="user_policy"/>
             <label for="checkbox-policy" class="contact-form-chekbox-label">Соглашаюсь с рассылкой и принимаю&nbsp; <a class="contact-form-policy-link" href=""> Условия договора</a>
-            </label>
+            
             </label>
         </span>
             <button class="contact-form-btn" type="submit">Отправить</button>
